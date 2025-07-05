@@ -1,4 +1,4 @@
-# LifeInTheFastLane -- Dynamics 365 SDK performance tester
+# LifeInTheFastLane -- Dynamics 365 / Dataverse SDK performance tester
 LifeInTheFastLane (named after the Eagles song) is a Dynamics 365/Dataverse SDK write performance testing application. 
 Features include:
 - Various methods of creating rows within Dataverse, including Create, CreateMultiple, threaded Create, threaded CreateMultiple and CreateMultipleAsync. 
@@ -8,7 +8,7 @@ Features include:
 
 ## Directions for use
 Please make sure you have the LifeInTheFastLaneDemoEntity solution provisioned on your target environment. 
-You can then populate the connection string inside LifeInTheFastLane.exe.config with your own domain, client ID and client secret. 
+You can then populate the connection string inside App.config.template with your own domain, client ID and client secret, then rename to App.config and run. 
 
 ## Credits
 - Mark Carrington (https://markcarrington.dev/2020/12/04/improving-insert-update-delete-performance-in-d365-dataverse/) for his very helpful test code and article on fast Create and CreateMultiple.
